@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_REGION = 'ap-south-1'
-        AWS_ACCOUNT_ID = 'YOUR_AWS_ACCOUNT_ID'
+        AWS_ACCOUNT_ID = '896305834488'
         ECR_REPOSITORY = 'jenkins-aws-webapp'
         IMAGE_TAG = "${BUILD_NUMBER}"
         ECR_REGISTRY = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com"
