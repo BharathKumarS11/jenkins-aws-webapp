@@ -8,7 +8,7 @@ pipeline {
         IMAGE_TAG = "${BUILD_NUMBER}"
         ECR_REGISTRY = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com"
         IMAGE_NAME = "${ECR_REGISTRY}/${ECR_REPOSITORY}"
-        APP_SERVER = 'APP_SERVER_PRIVATE_IP'
+        APP_SERVER = '10.0.3.166'
     }
 
     stages {
